@@ -1,1 +1,0 @@
-# dimacs-sssp-benchmark
