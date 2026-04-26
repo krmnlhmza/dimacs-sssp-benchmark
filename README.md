@@ -89,20 +89,6 @@ The core idea — captured in this implementation — is to abandon strict prior
 
 **Important disclosure:** The implementation in this repository captures the batch-processing framework and produces correct results (verified by cross-validation against Dijkstra), but it does **not** achieve the paper's full asymptotic bound — that would require the recursive BMSSP procedure with the specialized data structure described in Section 3 of the paper. This educational simplification was a deliberate choice: a correct, honest implementation is more valuable than a fabricated one.
 
----
-
-## Repository Structure
-
-```
-dimacs-sssp-benchmark/
-├── ceng383hw.ipynb            # Jupyter notebook with all code (10 cells)
-├── dimacs_benchmark.csv       # Final benchmark results
-├── dimacs_charts.png          # Runtime + memory charts
-├── CENG383_SSSP_Final.docx    # Written report (also as PDF)
-├── CENG383_SSSP_Final.pdf
-├── USA-road-d.NY.gr.gz        # DIMACS NY data (auto-downloaded by notebook)
-└── README.md                  # This file
-```
 
 ---
 
