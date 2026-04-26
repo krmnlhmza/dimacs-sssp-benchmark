@@ -173,7 +173,7 @@ Runs Dijkstra and BMSSP on the **complete** 264,346-node DIMACS-NY graph. Bellma
 
 ### Steps
 ```bash
-git clone https://github.com/<your-username>/dimacs-sssp-benchmark.git
+git clone https://github.com/krmnlhmza/dimacs-sssp-benchmark.git
 cd dimacs-sssp-benchmark
 jupyter notebook ceng383hw.ipynb
 ```
