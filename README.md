@@ -114,7 +114,13 @@ All libraries are part of Python's standard library or commonly pre-installed in
 
 ## Functions Written
 
-The notebook is organized into 10 cells. Here is what each function does and why it exists:
+The notebook is organized into 11 cells. Here is what each function does and why it exists:
+
+### Imports — Cell 1 
+Imports all required libraries (`os`, `gzip`, `math`, `time`, `heapq`, `random`, `statistics`, `urllib.request`, `tracemalloc`, `pandas`, `matplotlib`, `numpy`, `collections.deque`). Most are part of Python's standard library; `pandas`, `matplotlib`, and `numpy` come pre-installed with Anaconda/Jupyter. See the [Libraries Used](#libraries-used) section for what each one does.
+
+### `download_dimacs()` — Cell 2
+Downloads the DIMACS-NY gzipped graph file...
 
 ### `download_dimacs()` — Cell 2
 Downloads the DIMACS-NY gzipped graph file from the official DIMACS server. Includes a `User-Agent` header to avoid 403 errors on some servers. Skips download if the file already exists locally.
